@@ -21,7 +21,10 @@ gem "jsbundling-rails"
 gem "sassc-rails"
 
 gem "simple_form"
+
 gem "autoprefixer-rails"
+
+gem "dotenv-rails", groups: [:development, :test]
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
