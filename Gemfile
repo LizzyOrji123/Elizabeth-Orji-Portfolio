@@ -24,7 +24,7 @@ gem "simple_form"
 
 gem "autoprefixer-rails"
 
-gem "dotenv-rails", groups: [:development, :test]
+# gem "dotenv-rails", groups: [:development, :test]
 
 gem "cloudinary"
 
