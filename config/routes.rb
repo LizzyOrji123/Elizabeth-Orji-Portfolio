@@ -1,11 +1,7 @@
 Rails.application.routes.draw do
-  get 'pages/home'
-  get 'pages/about'
-  get 'pages/resume'
-  get 'pages/services'
-  get 'pages/project'
-  get 'pages/contact'
-  root to: "pages#home"
+
+  get "home", to:
+  'pages#home', as: :home
 
   get "about", to:
   "pages#about", as: :about
